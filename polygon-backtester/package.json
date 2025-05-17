@@ -1,0 +1,13 @@
+{
+  "name": "polygon-scanner-backtester",
+  "version": "1.0.0",
+  "description": "Stock scanner and strategy backtester using polygon.io websockets",
+  "main": "scanner.js",
+  "scripts": {
+    "scanner": "node scanner.js",
+    "backtest": "node backtester.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}
